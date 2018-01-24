@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <title>
+                Document
+            </title>
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" rel="stylesheet">
+            </link>
+        </meta>
+    </head>
+    <body>
+        <div id="root" class="container" style="padding-top: 40px;">
+        	<modal v-show="showModal" v-on:hidemodal="showModal = false"></modal>
+        	<button class="button" v-on:click="showModal = true">Click Me</button>
+        </div>
+        <script src="https://unpkg.com/vue@2.5.13/dist/vue.js">
+        </script>
+        <script src="main.js">
+        </script>
+        <script>
+        </script>
+    </body>
+</html>
